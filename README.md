@@ -1,1 +1,1 @@
-# Patika-Exercises-CSS Assignment 1
+# Patika-Exercises-CSS Assignments
