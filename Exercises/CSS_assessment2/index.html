@@ -27,27 +27,54 @@
         }
         .grid-container {
             display: grid;
-            grid-template-columns: 2fr 1fr 2.2fr;
+            grid-template-columns: 1.7fr 1fr 2fr;
             margin-left: 30px;
             margin-right: 30px;
-            background-color: aquamarine;
+            margin-top: 3px;
+            column-gap: 3px;
+
         }
         .grid-item {
             text-align: center;
-            margin-top: 1px;
-            margin-right: 1px;
+            border-top: 1px;
+            border-right: 1px;
         }
         .grid-item-1>p {
+            margin-top: 10px;
             margin-bottom: 0;
         }
         .grid-item-3>p {
             margin-bottom: 0;
         }
+        .grid-item-3 input {
+            display: block;
+            margin: auto;
+        }
+        .grid-item-3 {
+            background-color:aquamarine;
+            border-right: 5px;
+            border-right-color: white;
+
+        }
+        .grid-item-3>p {
+            margin-top: auto;
+        }
+        .grid-item-2 {
+            background-color: rgba(127, 255, 212, 0.637);
+            border-right: 5px;
+            border-right-color: white;
+
+        }
+        .grid-item-1 {
+            background-color: rgba(127, 255, 212, 0.356);
+            
+        }
+
     </style>
 </head>
 <body>
     <center>
-        <img src="/Exercises/CSS_assessment2/google.jpg" class="image" alt="Google">
+        <img src="/Patika-Exercises-CSS1/Exercises/CSS_assessment2/google.jpg" class="image" alt="Google">
     </center>
     <center class="search-bar">
         <p class="search-top">Search the web using Google!</p>
@@ -70,8 +97,12 @@
         <div class="grid-item grid-item-3">
             <p>Get Google! <br> updates monthly:</p>
             <input type="text" name="mail" placeholder="your e-mail">
-
+            <button>Subscribe</button>
+            <a href="#archive">Archive</a>
         </div>
+    </div>
+    <div>
+        <p style="margin-top: 25px; text-align: center;">Copyright ©1998 Google Inc.</p>
     </div>
 </body>
 </html>
