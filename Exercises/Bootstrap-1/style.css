@@ -1,0 +1,17 @@
+.navbar {
+    background-color: #041C32;
+}
+
+.navbar-brand {
+    margin-left: 15px;
+    color: whitesmoke;
+    font-family: 'Pacifico', cursive;
+}
+
+.jumbotron {
+    margin-top: none;
+    background-color: #04293A;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 5px;
+}
