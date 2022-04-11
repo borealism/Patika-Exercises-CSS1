@@ -13,5 +13,25 @@
     background-color: #04293A;
     color: whitesmoke;
     text-align: center;
-    padding-bottom: 5px;
+    padding-bottom: 1px;
+}
+
+a {
+    color: #428BCA;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #2A6496;
+    text-decoration: none;
+    outline: none;
+}
+
+.products {
+    background-color: #064663;
+    margin: none;
+    margin-left: none;
+    margin-right: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
