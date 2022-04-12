@@ -1,3 +1,9 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #E9ECEF;
+}
+
 .navbar {
     background-color: #041C32;
 }
@@ -28,10 +34,6 @@ a:hover, a:focus {
 }
 
 .products {
-    background-color: #064663;
-    margin: none;
-    margin-left: none;
-    margin-right: none;
     padding-top: 10px;
     padding-bottom: 10px;
 }
