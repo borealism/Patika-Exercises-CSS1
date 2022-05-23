@@ -69,3 +69,7 @@ input.empty {
 .card-footer {
   color: white;
 }
+
+.list-group-horizontal{
+  border: none;
+}
