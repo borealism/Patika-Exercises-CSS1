@@ -19,4 +19,9 @@ function currentTime() {
         ss = (ss < 10) ? "0" + ss : ss;
 
         let time = hh + ":" + mm + ":" + ss + " " + session;
+
+    document.querySelector("#myClock").innerHTML = time;
+    let t = setTimeout(function() {currentTime()}, 1000);
 }
+
+currentTime();
